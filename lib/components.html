@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Library</title>
+    <!-- CSS way 1: style tag
+    <style>
+        body{
+            color: red;
+        }
+    </style>
+    third way of doing CSS:external link  -->
+    <link rel="stylesheet" href="/styles.css"/>
+</head>
+
+<body>
+    <h1 id="lib-head">Shubham Sharma's Component Library</h1>
+    <p>I am attending neog.camp and I want to make a library which would make my prjects look
+        good and consistent. </p>
+
+    <hr>
+
+    <h2>@typography</h2>
+
+    <h1>This is the biggest heading</h1>
+    <h2>this is second biggest heading</h2>
+    <p>let me show you the normal text. this is free flowing and will wrap at the
+        like a paragraph.</p>
+    <p>This line will have a <b>bold</b> text</p>
+    <small>this is relatively smaller text</small>
+
+    <hr>
+
+    <h2>@container</h2>
+
+    <h3>fluid container</h3>
+    <div class="container container-fluid">this is a fluid container and will go till the end of the</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">this is a centered container and it will go till the specified width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+
+    <a class="link primary-link" href="\">primary link</a>
+    <a class="link secondary-link" href="\">secondary link</a>
+
+    <hr>
+
+    <h2>@lists</h2>
+
+    <h3>unordered list</h3>
+    <p>this list will not have bullets</p>
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>unordered inline list</h3>
+    
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two </li>
+        <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h3>reverse order list</h3>
+    <ol reversed>
+        <li>milk</li>
+        <li>bread</li>
+        <li>eggs</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">IamBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline" >
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline" >
+                <a class="link" href="/">product</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/"> about</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h2>@header</h2>
+
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" />
+        <h1 class="hero-heading">heading inside <span class="heading-high">hero</span></h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+        <p>Since we last talked about MDN localization, a lot of progress has been made. In this post we'll talk you through the unfreezing of Tier 1 locales, and the next steps in our plans to stop displaying non-active and unmaintained locales.The post MDN localization in March — Tier 1 locales unfrozen, and future plans appeared first on Mozilla Hacks - the Web developer blog. </p>
+        </div>
+        
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+        <h1>off white section</h1>
+        <p>Since we last talked about MDN localization, a lot of progress has been made. In this post we'll talk you through the unfreezing of Tier 1 locales, and the next steps in our plans to stop displaying non-active and unmaintained locales.The post MDN localization in March — Tier 1 locales unfrozen, and future plans appeared first on Mozilla Hacks - the Web developer blog. </p>
+    </div>
+    </section>
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">socialone</a></li>
+            <li class="list-item-inline"><a class="link" href="/">socialtwo</a></li>
+            <li class="list-item-inline"><a class="link" href="/">socialthree</a></li>
+        </ul>
+
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
